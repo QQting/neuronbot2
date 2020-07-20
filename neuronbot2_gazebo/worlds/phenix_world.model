@@ -44,10 +44,11 @@
     </physics>
 
     <model name="phenix_world">
-      <static>1</static>
+      <pose frame=''>0.8 -3.7 0.0 0 -0 -1.8</pose>
       <include>
         <uri>model://phenix</uri>
       </include>
+      <static>1</static>
     </model>
 
     <include>
